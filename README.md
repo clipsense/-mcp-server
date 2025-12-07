@@ -34,6 +34,22 @@ Analyze screen recordings of mobile app bugs with AI coding assistants. Get inst
 - **Code Fix Suggestions**: Get actionable recommendations to fix bugs
 - **Fast Processing**: Results in ~2 minutes for most videos
 
+## Why ClipSense?
+
+| Feature | ClipSense MCP | Claude Desktop | Manual Debugging | Screen Recording Tools |
+|---------|---------------|----------------|------------------|------------------------|
+| Video file size limit | 500MB | 31MB | N/A | Varies |
+| AI analysis | ✅ Claude Sonnet 4.5 | ✅ (limited by file size) | ❌ Manual review | ❌ No analysis |
+| Works in AI coding assistants | ✅ All MCP-compatible | ❌ Desktop only | ❌ | ❌ |
+| Code fix suggestions | ✅ Contextual | ✅ (limited) | ❌ | ❌ |
+| Timeline breakdown | ✅ Automatic | ❌ | ❌ Manual | ❌ |
+| Root cause analysis | ✅ Automatic | ✅ (limited) | ❌ Manual | ❌ |
+| Multi-format support | ✅ 9 formats | ✅ (limited) | ✅ | ✅ |
+| Integration with workflow | ✅ Native in IDE | ❌ Separate app | ❌ | ❌ |
+| Processing time | 2-3 minutes | Instant (upload limited) | Hours | N/A |
+
+**Bottom line**: ClipSense is the only tool that brings AI-powered video analysis directly into your development workflow, with support for realistic file sizes and multiple video formats.
+
 ## Demo
 
 ![ClipSense Demo](https://placeholder-for-demo.gif)
