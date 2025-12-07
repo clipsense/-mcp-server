@@ -6,3 +6,11 @@ dist/
 *.tgz
 .vscode/
 .idea/
+
+# Sensitive test/utility files (should be in private repo)
+*.py
+test_*.mjs
+financial_*.py
+create*.py
+reset*.py
+get_api_key.py
