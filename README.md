@@ -283,7 +283,7 @@ Restart your IDE after updating.
 ## Support
 
 - Documentation: https://clipsense.app/docs
-- Issues: https://github.com/clipsense/mcp-server/issues
+- Issues: https://github.com/clipsense/-mcp-server/issues
 - Email: support@clipsense.app
 
 ## License
