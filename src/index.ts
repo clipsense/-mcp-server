@@ -51,6 +51,7 @@ async function main() {
         {
           name: "analyze-video",
           description: "Use this tool to analyze video files on the user's computer that show mobile app bugs. Reads local video files (MP4, MOV, WebM, AVI, MKV, FLV, MPEG, 3GP, WMV) and provides AI-powered analysis to identify errors, crashes, UI issues, and suggests code fixes. Works with React Native, iOS (Swift/Objective-C), and Android (Kotlin/Java) apps. Use this when the user asks you to analyze, examine, or debug a video file showing app behavior.",
+          readOnlyHint: true,
           inputSchema: {
             type: "object",
             properties: {
