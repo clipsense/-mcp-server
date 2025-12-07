@@ -1,0 +1,55 @@
+{
+  "name": "@gburanda/clipsense-mcp-server",
+  "version": "0.1.4",
+  "description": "MCP server for mobile debugging with video analysis",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "clipsense-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "claude-code",
+    "cursor",
+    "windsurf",
+    "video-analysis",
+    "mobile-debugging",
+    "react-native",
+    "ios",
+    "android",
+    "bug-tracking",
+    "qa-testing",
+    "ai-debugging",
+    "crash-analysis",
+    "mobile-app-debugging",
+    "ai-assistant",
+    "developer-tools",
+    "debugging-tools",
+    "video-intelligence"
+  ],
+  "author": "ClipSense",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clipsense/mcp-server.git"
+  },
+  "homepage": "https://clipsense.app",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
