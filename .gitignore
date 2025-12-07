@@ -7,10 +7,31 @@ dist/
 .vscode/
 .idea/
 
-# Sensitive test/utility files (should be in private repo)
+# PROPRIETARY FILES - Keep in private repo only
+# Internal documentation
+docs/
+DEVHUNT-LAUNCH-POST.md
+E2E-TEST-REPORT.md
+HACKER-NEWS-POST.md
+HOW-TO-TEST-MCP-SERVER.md
+LAUNCH-POSTS.md
+MCP-DIRECTORY-SUBMISSION.md
+MCP-SUBMISSION-QUICK-GUIDE.md
+PUBLISH.md
+PUBLISHING-STRATEGY.md
+QUICK-LAUNCH-GUIDE.md
+SECURITY_AUDIT_INDEX.md
+SECURITY_AUDIT_REPORT.md
+SECURITY_FINDINGS_QUICK_REFERENCE.md
+TWITTER-THREAD.md
+UPDATED-LAUNCH-STRATEGY-DEC-2024.md
+COMPREHENSIVE-SECURITY-STATUS-REPORT.md
+WORKFLOW-DIAGRAM.md
+MCP-CONFIG-EXAMPLE.md
+
+# Test and utility scripts
 *.py
-test_*.mjs
-financial_*.py
-create*.py
-reset*.py
-get_api_key.py
+*.sql
+test-*.mjs
+test-*.js
+test_*.py
